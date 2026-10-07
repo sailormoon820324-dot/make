@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Tagline: begin with nature -->
+  <text x="75" y="14" font-family="'Brush Script MT', cursive, sans-serif" font-style="italic" font-size="13" font-weight="bold" fill="#3D8B4D">begin with nature</text>
+  
+  <!-- Green leaf sprout above the 'oo's -->
+  <g transform="translate(100, 16)">
+    <path d="M 0 5 C 10 -15 35 -10 30 5 C 20 15 5 10 0 5 Z" fill="#84CC16" />
+    <path d="M 0 5 Q 18 -5 30 5" stroke="#4D7C0F" stroke-width="1.2" fill="none" />
+  </g>
+
+  <!-- dao om text -->
+  <text x="10" y="48" font-family="'Arial Rounded MT Bold', 'Pretendard', sans-serif" font-size="40" font-weight="900" fill="#2E5A36" letter-spacing="-1">daoom</text>
+</svg>

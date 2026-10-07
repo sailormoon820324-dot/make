@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="warmWindow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF5E5" />
+      <stop offset="50%" stop-color="#FCE7D2" />
+      <stop offset="100%" stop-color="#F7D8BC" />
+    </linearGradient>
+    <linearGradient id="orangeBox" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF9233" />
+      <stop offset="100%" stop-color="#EA6B00" />
+    </linearGradient>
+    <linearGradient id="stickOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFB05C" />
+      <stop offset="100%" stop-color="#ED7407" />
+    </linearGradient>
+    <linearGradient id="woodWarm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9A874" />
+      <stop offset="100%" stop-color="#B5814C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Warm Sunlit Room Background with Window Greenery -->
+  <rect width="800" height="360" fill="url(#warmWindow)" />
+  <circle cx="120" cy="90" r="80" fill="#FFE2B8" opacity="0.6" />
+  <!-- Green plant leaves through window -->
+  <circle cx="50" cy="180" r="60" fill="#78B159" opacity="0.4" />
+  <circle cx="750" cy="120" r="70" fill="#5C9E42" opacity="0.3" />
+
+  <!-- Wooden Warm Table -->
+  <rect y="360" width="800" height="240" fill="url(#woodWarm)" />
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#9E6E3C" stroke-width="2" />
+  <line x1="0" y1="470" x2="800" y2="470" stroke="#9E6E3C" stroke-width="2" />
+
+  <!-- Left Glass of Amber Drink on Coaster -->
+  <g transform="translate(60, 310)">
+    <!-- Coaster -->
+    <ellipse cx="65" cy="165" rx="55" ry="16" fill="#8C5C36" />
+    <!-- Glass tumbler -->
+    <path d="M 25 30 L 35 150 Q 65 160 95 150 L 105 30 Z" fill="rgba(255, 255, 255, 0.4)" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Amber liquid -->
+    <path d="M 32 60 L 37 145 Q 65 154 93 145 L 98 60 Q 65 70 32 60 Z" fill="#F4B842" opacity="0.85" />
+    <ellipse cx="65" cy="60" rx="33" ry="8" fill="#F9CB68" opacity="0.7" />
+  </g>
+
+  <!-- Big Stacked Orange Boxes: 다움 생효모 100 -->
+  <g transform="translate(180, 140)">
+    <!-- Top Box -->
+    <rect width="320" height="150" rx="8" fill="url(#orangeBox)" stroke="#C95900" stroke-width="2" />
+    <!-- Bottom white band -->
+    <rect x="0" y="115" width="320" height="35" rx="4" fill="#FFFFFF" />
+    <text x="25" y="60" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">다움 생효모 100</text>
+    <text x="25" y="85" font-family="sans-serif" font-size="12" fill="#FFE2C9">자연 순수 효모 100% 함유 곡물 발효</text>
+    <text x="25" y="138" font-family="sans-serif" font-size="11" font-weight="bold" fill="#D85C00">효모식품 | NET WT. 450g (5g x 30포 x 3 Box)</text>
+    <circle cx="270" cy="55" r="26" fill="#FFFFFF" opacity="0.2" />
+    <text x="256" y="64" font-size="24">🌾</text>
+  </g>
+
+  <!-- Lower Box Stacked Below -->
+  <g transform="translate(180, 300)">
+    <rect width="320" height="150" rx="8" fill="url(#orangeBox)" stroke="#C95900" stroke-width="2" />
+    <rect x="0" y="115" width="320" height="35" rx="4" fill="#FFFFFF" />
+    <text x="25" y="60" font-family="'Pretendard', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">다움 생효모 100</text>
+    <text x="25" y="138" font-family="sans-serif" font-size="11" font-weight="bold" fill="#D85C00">정직한 자연 발효 영양 한 포</text>
+  </g>
+
+  <!-- Standing Medium Boxes to the Right -->
+  <g transform="translate(520, 260)">
+    <rect width="90" height="140" rx="6" fill="url(#orangeBox)" stroke="#C95900" stroke-width="1.5" />
+    <rect x="0" y="110" width="90" height="30" rx="4" fill="#FFFFFF" />
+    <text x="12" y="50" font-family="'Pretendard', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">생효모 100</text>
+    <text x="10" y="130" font-family="sans-serif" font-size="9" font-weight="bold" fill="#D85C00">30포 소박스</text>
+  </g>
+
+  <g transform="translate(620, 260)">
+    <rect width="90" height="140" rx="6" fill="url(#orangeBox)" stroke="#C95900" stroke-width="1.5" />
+    <rect x="0" y="110" width="90" height="30" rx="4" fill="#FFFFFF" />
+    <text x="12" y="50" font-family="'Pretendard', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">생효모 100</text>
+  </g>
+
+  <!-- Open Dispenser Box on Right with orange stick pouches spilling out -->
+  <g transform="translate(720, 310)">
+    <rect width="70" height="120" rx="4" fill="#FFFFFF" stroke="#E0D5C3" stroke-width="2" />
+    <!-- sticks inside -->
+    <rect x="10" y="-15" width="12" height="60" rx="3" fill="url(#stickOrange)" transform="rotate(15 10 -15)" />
+    <rect x="25" y="-18" width="12" height="60" rx="3" fill="url(#stickOrange)" transform="rotate(5 25 -18)" />
+    <rect x="40" y="-15" width="12" height="60" rx="3" fill="url(#stickOrange)" transform="rotate(-10 40 -15)" />
+  </g>
+
+  <!-- Fan of orange stick pouches in foreground on table -->
+  <g transform="translate(360, 470)">
+    <rect x="0" y="0" width="16" height="75" rx="4" fill="url(#stickOrange)" transform="rotate(-25 0 0)" stroke="#D85C00" stroke-width="1" />
+    <text x="3" y="45" font-family="sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF" transform="rotate(-25 0 0)">생효모</text>
+
+    <rect x="35" y="-5" width="16" height="75" rx="4" fill="url(#stickOrange)" transform="rotate(-15 35 -5)" stroke="#D85C00" stroke-width="1" />
+    <rect x="70" y="-5" width="16" height="75" rx="4" fill="url(#stickOrange)" stroke="#D85C00" stroke-width="1" />
+    <rect x="105" y="-5" width="16" height="75" rx="4" fill="url(#stickOrange)" transform="rotate(15 105 -5)" stroke="#D85C00" stroke-width="1" />
+    <rect x="140" y="0" width="16" height="75" rx="4" fill="url(#stickOrange)" transform="rotate(25 140 0)" stroke="#D85C00" stroke-width="1" />
+  </g>
+
+  <!-- Header Badge -->
+  <rect x="490" y="20" width="280" height="44" rx="22" fill="#D85C00" />
+  <text x="515" y="47" font-family="'Pretendard', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">
+    자연 곡물 순수 효모 100% 한 포
+  </text>
+</svg>

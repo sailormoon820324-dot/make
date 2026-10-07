@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#E8E4DA" />
+  <ellipse cx="300" cy="480" rx="180" ry="20" fill="#000000" opacity="0.15" />
+  <!-- Glass bottle and box -->
+  <g transform="translate(180, 200)">
+    <rect x="0" y="40" width="110" height="190" rx="14" fill="#FFFFFF" stroke="#CCD8CD" stroke-width="2" />
+    <circle cx="55" cy="110" r="30" fill="#E5F2E7" />
+    <text x="35" y="120" font-size="28">🌱</text>
+    <text x="14" y="165" font-family="'Pretendard', sans-serif" font-size="11" font-weight="bold" fill="#2D6A4F">유기농 새싹보리</text>
+    <text x="30" y="185" font-family="sans-serif" font-size="10" fill="#718576">분말 100g</text>
+
+    <!-- Box on right -->
+    <rect x="130" y="20" width="120" height="210" rx="8" fill="#F4F8F4" stroke="#CCD8CD" stroke-width="2" />
+    <rect x="130" y="20" width="120" height="40" rx="4" fill="#2D6A4F" />
+    <text x="145" y="45" font-family="'Pretendard', sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">유기농 새싹보리</text>
+    <text x="150" y="130" font-family="'Pretendard', sans-serif" font-size="13" font-weight="900" fill="#1E3A2B">동결건조</text>
+    <text x="150" y="150" font-family="'Pretendard', sans-serif" font-size="13" font-weight="900" fill="#2D6A4F">순수 분말</text>
+  </g>
+</svg>

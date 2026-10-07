@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="100%" height="100%">
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2C1D13" stop-opacity="0.75" />
+      <stop offset="60%" stop-color="#190F0A" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0E0805" stop-opacity="0.98" />
+    </radialGradient>
+    <linearGradient id="darkWood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#342217" />
+      <stop offset="50%" stop-color="#24160E" />
+      <stop offset="100%" stop-color="#140B07" />
+    </linearGradient>
+    <linearGradient id="ceramicBowl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#42291E" />
+      <stop offset="50%" stop-color="#2D1A12" />
+      <stop offset="100%" stop-color="#1A0D08" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark rustic wood table background -->
+  <rect width="1600" height="480" fill="url(#darkWood)" />
+  <!-- Wood grain lines -->
+  <line x1="0" y1="120" x2="1600" y2="120" stroke="#1D110B" stroke-width="3" opacity="0.6" />
+  <line x1="0" y1="240" x2="1600" y2="240" stroke="#1D110B" stroke-width="4" opacity="0.6" />
+  <line x1="0" y1="360" x2="1600" y2="360" stroke="#1D110B" stroke-width="3" opacity="0.6" />
+
+  <!-- Shadow under bowls -->
+  <ellipse cx="140" cy="90" rx="160" ry="80" fill="#000000" opacity="0.6" />
+  <ellipse cx="440" cy="90" rx="170" ry="85" fill="#000000" opacity="0.6" />
+  <ellipse cx="780" cy="85" rx="170" ry="85" fill="#000000" opacity="0.6" />
+  <ellipse cx="1120" cy="85" rx="170" ry="85" fill="#000000" opacity="0.6" />
+  <ellipse cx="1440" cy="90" rx="160" ry="80" fill="#000000" opacity="0.6" />
+
+  <!-- Bowl 1 (Left - Golden Oat/Grain powder) -->
+  <g transform="translate(40, -40)">
+    <ellipse cx="100" cy="110" rx="140" ry="70" fill="url(#ceramicBowl)" stroke="#59392A" stroke-width="4" />
+    <ellipse cx="100" cy="100" rx="125" ry="58" fill="#E2C9A1" />
+    <ellipse cx="100" cy="95" rx="100" ry="45" fill="#D7B98A" />
+  </g>
+
+  <!-- Bowl 2 (Green Kale / Chlorophyll powder) -->
+  <g transform="translate(320, -50)">
+    <ellipse cx="120" cy="115" rx="150" ry="75" fill="url(#ceramicBowl)" stroke="#59392A" stroke-width="4" />
+    <ellipse cx="120" cy="105" rx="135" ry="62" fill="#5E8D62" />
+    <ellipse cx="120" cy="100" rx="110" ry="48" fill="#4B774E" />
+    <ellipse cx="120" cy="95" rx="80" ry="32" fill="#3D6841" />
+  </g>
+
+  <!-- Bowl 3 (Terracotta Red Adzuki / Beet powder) -->
+  <g transform="translate(660, -55)">
+    <ellipse cx="120" cy="115" rx="150" ry="75" fill="url(#ceramicBowl)" stroke="#59392A" stroke-width="4" />
+    <ellipse cx="120" cy="105" rx="135" ry="62" fill="#A85741" />
+    <ellipse cx="120" cy="100" rx="110" ry="48" fill="#934633" />
+  </g>
+
+  <!-- Bowl 4 (Dark Green Wild Herbs / Spinach powder) -->
+  <g transform="translate(1000, -50)">
+    <ellipse cx="120" cy="115" rx="150" ry="75" fill="url(#ceramicBowl)" stroke="#59392A" stroke-width="4" />
+    <ellipse cx="120" cy="105" rx="135" ry="62" fill="#3A664B" />
+    <ellipse cx="120" cy="100" rx="110" ry="48" fill="#2E543C" />
+  </g>
+
+  <!-- Big Foreground Bowl (Right bottom - Whole grain powder heap) -->
+  <g transform="translate(1220, 80)">
+    <ellipse cx="180" cy="170" rx="180" ry="90" fill="url(#ceramicBowl)" stroke="#59392A" stroke-width="6" />
+    <ellipse cx="180" cy="155" rx="160" ry="75" fill="#D3C3AB" />
+    <ellipse cx="180" cy="145" rx="130" ry="58" fill="#C2AF94" />
+    <ellipse cx="180" cy="135" rx="90" ry="40" fill="#AF9A7D" />
+  </g>
+
+  <!-- Vignette overlay for text legibility -->
+  <rect width="1600" height="480" fill="url(#vignette)" />
+</svg>

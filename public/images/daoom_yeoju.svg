@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#E8E4DA" />
+  <ellipse cx="300" cy="480" rx="180" ry="20" fill="#000000" opacity="0.15" />
+  <!-- Yeoju box & stick -->
+  <g transform="translate(180, 180)">
+    <!-- Box -->
+    <rect x="0" y="20" width="150" height="230" rx="8" fill="#F0F7EE" stroke="#C5DFC0" stroke-width="2" />
+    <text x="15" y="45" font-family="sans-serif" font-size="12" font-weight="900" fill="#2D6A4F">daoom</text>
+    <text x="15" y="85" font-family="'Pretendard', sans-serif" font-size="20" font-weight="900" fill="#2D6A4F">다움 여주환</text>
+    <text x="40" y="150" font-size="40">🥒</text>
+    <text x="25" y="200" font-family="sans-serif" font-size="11" fill="#587554">국내산 여주 100%</text>
+
+    <!-- Stick on right -->
+    <rect x="175" y="50" width="40" height="200" rx="6" fill="#84A98C" stroke="#52796F" stroke-width="2" />
+    <text x="183" y="140" font-family="'Pretendard', sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" transform="rotate(-90 183 140)">다움 여주환</text>
+  </g>
+</svg>

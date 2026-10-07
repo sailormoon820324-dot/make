@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F4EC" />
+      <stop offset="60%" stop-color="#D2E8D7" />
+      <stop offset="100%" stop-color="#B8DCBF" />
+    </linearGradient>
+    <linearGradient id="farmGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4F7942" />
+      <stop offset="100%" stop-color="#2D5A27" />
+    </linearGradient>
+    <linearGradient id="woodTable" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E5D9C5" />
+      <stop offset="50%" stop-color="#D7C9B1" />
+      <stop offset="100%" stop-color="#C2B296" />
+    </linearGradient>
+    <linearGradient id="boxShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.15)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Farm background -->
+  <rect width="800" height="380" fill="url(#skyGrad)" />
+  <!-- Forest hills -->
+  <path d="M0 240 Q 150 180 350 220 T 800 210 L 800 380 L 0 380 Z" fill="#3E6B39" opacity="0.6" />
+  <path d="M0 280 Q 200 240 450 270 T 800 250 L 800 380 L 0 380 Z" fill="#2E5629" />
+  
+  <!-- Wooden Table -->
+  <rect y="380" width="800" height="220" fill="url(#woodTable)" />
+  <line x1="0" y1="410" x2="800" y2="410" stroke="#BFAF96" stroke-width="2" opacity="0.5" />
+  <line x1="0" y1="470" x2="800" y2="470" stroke="#BFAF96" stroke-width="2" opacity="0.5" />
+  <line x1="0" y1="530" x2="800" y2="530" stroke="#BFAF96" stroke-width="2" opacity="0.5" />
+
+  <!-- Burlap fabric on table -->
+  <path d="M 380 430 L 760 410 Q 780 450 740 540 L 410 550 Z" fill="#C8B594" opacity="0.5" />
+
+  <!-- Shadow under boxes -->
+  <ellipse cx="200" cy="450" rx="170" ry="25" fill="#000000" opacity="0.18" />
+  <ellipse cx="480" cy="460" rx="140" ry="20" fill="#000000" opacity="0.18" />
+  <ellipse cx="660" cy="455" rx="120" ry="22" fill="#000000" opacity="0.18" />
+
+  <!-- Big Left Box (다움 유기농 온가족 생식) -->
+  <g transform="translate(40, 160)">
+    <!-- Box Body -->
+    <rect width="280" height="280" rx="8" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="2" />
+    <!-- Handle Cutout at top -->
+    <rect x="90" y="-12" width="100" height="16" rx="8" fill="#F4EFE6" stroke="#D5CBB9" stroke-width="2" />
+    
+    <!-- Box text and brand -->
+    <text x="25" y="42" font-family="sans-serif" font-size="14" font-weight="900" fill="#2D5A27" letter-spacing="1">daoom</text>
+    <text x="25" y="58" font-family="sans-serif" font-size="9" fill="#888888">Earth's Foods Family and more</text>
+    
+    <!-- Organic & HACCP badges -->
+    <rect x="200" y="28" width="28" height="28" rx="4" fill="#E8F4EC" stroke="#2D6A4F" stroke-width="1.5" />
+    <text x="204" y="45" font-family="sans-serif" font-size="7" font-weight="bold" fill="#2D6A4F">유기농</text>
+    <rect x="234" y="28" width="28" height="28" rx="14" fill="#EBF3FB" stroke="#3A82C4" stroke-width="1.5" />
+    <text x="238" y="45" font-family="sans-serif" font-size="7" font-weight="bold" fill="#3A82C4">HACCP</text>
+
+    <!-- Main Title -->
+    <text x="25" y="115" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#2E4A35">다움 유기농</text>
+    <text x="25" y="145" font-family="'Pretendard', sans-serif" font-size="24" font-weight="900" fill="#8C5C36">온가족 생식</text>
+    <text x="25" y="165" font-family="sans-serif" font-size="11" font-weight="bold" fill="#777777">/ Daoom Organic Family Meal</text>
+
+    <!-- Grains & Vegetables Illustration Emblem -->
+    <rect x="25" y="180" width="230" height="85" rx="8" fill="#F9F6F0" stroke="#EFE6D8" stroke-width="1" />
+    <circle cx="65" cy="222" r="24" fill="#E8F3E8" />
+    <text x="50" y="232" font-size="28">🌾</text>
+    <text x="100" y="210" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2E4A35">국내산 50가지 곡물·채소</text>
+    <text x="100" y="228" font-family="sans-serif" font-size="10" fill="#5E7566">영하 40℃ 비가열 동결건조</text>
+    <text x="100" y="246" font-family="sans-serif" font-size="10" font-weight="bold" fill="#8C5C36">35g × 30포 (1개월분)</text>
+  </g>
+
+  <!-- Center Shaker Bottle & Small Box -->
+  <g transform="translate(350, 240)">
+    <!-- Small box -->
+    <rect width="210" height="200" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" />
+    <rect x="65" y="-10" width="80" height="14" rx="6" fill="#F4EFE6" stroke="#D5CBB9" stroke-width="2" />
+    <text x="20" y="35" font-family="sans-serif" font-size="12" font-weight="900" fill="#2D5A27">daoom</text>
+    <text x="20" y="70" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#2E4A35">다움 유기농</text>
+    <text x="20" y="95" font-family="'Pretendard', sans-serif" font-size="18" font-weight="900" fill="#8C5C36">온가족 생식</text>
+    <rect x="20" y="115" width="170" height="65" rx="6" fill="#F8F5EE" />
+    <text x="65" y="152" font-family="sans-serif" font-size="11" font-weight="bold" fill="#2D6A4F">순수 자연 한 끼</text>
+    <text x="35" y="155" font-size="22">🥗</text>
+  </g>
+
+  <!-- Shaker Bottle with Daoom logo -->
+  <g transform="translate(385, 160)">
+    <rect x="0" y="25" width="46" height="75" rx="10" fill="#FFFFFF" stroke="#C9D6CE" stroke-width="2" opacity="0.9" />
+    <rect x="3" y="0" width="40" height="30" rx="12" fill="#E8F2EC" stroke="#2D6A4F" stroke-width="2" />
+    <text x="9" y="65" font-family="sans-serif" font-size="9" font-weight="bold" fill="#2D6A4F">daoom</text>
+    <!-- Liquid content -->
+    <rect x="4" y="55" width="38" height="40" rx="6" fill="#D7E8DA" opacity="0.7" />
+  </g>
+
+  <!-- Right Large Box (Daoom Organic Family Meal English edition) -->
+  <g transform="translate(580, 170)">
+    <rect width="200" height="270" rx="8" fill="#FFFFFF" stroke="#E2E2E2" stroke-width="2" />
+    <text x="20" y="35" font-family="sans-serif" font-size="13" font-weight="900" fill="#2D5A27">daoom</text>
+    <text x="20" y="80" font-family="sans-serif" font-size="16" font-weight="900" fill="#2E4A35">Daoom Organic</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="18" font-weight="900" fill="#8C5C36">Family Meal</text>
+    <rect x="20" y="130" width="160" height="110" rx="6" fill="#FAF7F2" stroke="#EFE7DA" stroke-width="1" />
+    <text x="75" y="195" font-size="34">🌾🥦</text>
+  </g>
+
+  <!-- Barley wheat stalks foreground on table -->
+  <g transform="translate(10, 470)">
+    <path d="M 0 50 Q 80 20 180 30" stroke="#7E9F4F" stroke-width="4" fill="none" />
+    <path d="M 40 40 Q 120 10 220 20" stroke="#B8A060" stroke-width="3" fill="none" />
+    <!-- Wheat grains -->
+    <ellipse cx="140" cy="27" rx="8" ry="4" transform="rotate(-15 140 27)" fill="#CFB56E" />
+    <ellipse cx="160" cy="25" rx="8" ry="4" transform="rotate(-10 160 25)" fill="#CFB56E" />
+    <ellipse cx="180" cy="24" rx="8" ry="4" transform="rotate(-5 180 24)" fill="#CFB56E" />
+    <ellipse cx="200" cy="23" rx="8" ry="4" fill="#CFB56E" />
+  </g>
+
+  <!-- Badge at top right -->
+  <rect x="520" y="20" width="250" height="44" rx="22" fill="#2D6A4F" />
+  <text x="540" y="47" font-family="'Pretendard', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">
+    100% 국내산 유기농 원료 생식
+  </text>
+</svg>

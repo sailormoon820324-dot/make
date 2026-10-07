@@ -1,0 +1,6 @@
+{
+  "name": "초록한끼 - 온바른 50곡 자연생식",
+  "description": "국내산 50가지 곡물과 채소를 담은 정직하고 간편한 자연 생식 소개 및 주문 페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

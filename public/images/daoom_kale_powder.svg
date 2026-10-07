@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kaleSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EBF7EF" />
+      <stop offset="60%" stop-color="#D7EFE0" />
+      <stop offset="100%" stop-color="#BEDFCB" />
+    </linearGradient>
+    <linearGradient id="kraftGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DFD1BD" />
+      <stop offset="100%" stop-color="#C2B29A" />
+    </linearGradient>
+    <linearGradient id="woodTable2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2EDE2" />
+      <stop offset="100%" stop-color="#DFD6C3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Kale Farm -->
+  <rect width="800" height="380" fill="url(#kaleSky)" />
+  <circle cx="700" cy="80" r="60" fill="#FFF8DE" opacity="0.8" />
+  <path d="M0 240 Q 200 200 450 230 T 800 220 L 800 380 L 0 380 Z" fill="#3D7044" />
+  <path d="M0 280 Q 250 250 500 280 T 800 260 L 800 380 L 0 380 Z" fill="#2B5832" />
+
+  <!-- Wooden Table -->
+  <rect y="380" width="800" height="220" fill="url(#woodTable2)" />
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#CFC5AF" stroke-width="2" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#CFC5AF" stroke-width="2" />
+
+  <!-- Left: Wooden crate with fresh curly kale -->
+  <g transform="translate(40, 160)">
+    <rect x="0" y="70" width="160" height="130" rx="4" fill="#9C7A58" stroke="#7D5E3E" stroke-width="3" />
+    <line x1="0" y1="110" x2="160" y2="110" stroke="#7D5E3E" stroke-width="2" />
+    <line x1="0" y1="150" x2="160" y2="150" stroke="#7D5E3E" stroke-width="2" />
+    <!-- Big Kale leaves in crate -->
+    <path d="M 20 70 Q -10 10 50 -10 Q 110 -20 130 50 Q 150 10 170 70 Z" fill="#2D6A4F" />
+    <path d="M 30 70 Q 20 20 70 10 Q 120 15 110 70 Z" fill="#40916C" />
+    <circle cx="80" cy="30" r="30" fill="#52B788" opacity="0.8" />
+  </g>
+
+  <!-- Right: Wicker basket with kale -->
+  <g transform="translate(600, 180)">
+    <!-- Basket body -->
+    <ellipse cx="90" cy="150" rx="80" ry="50" fill="#B38B59" stroke="#8A663A" stroke-width="2" />
+    <path d="M 30 140 Q 90 20 150 140" stroke="#8A663A" stroke-width="6" fill="none" />
+    <circle cx="85" cy="110" r="45" fill="#2D6A4F" />
+    <circle cx="110" cy="95" r="40" fill="#40916C" />
+    <circle cx="65" cy="95" r="35" fill="#52B788" />
+  </g>
+
+  <!-- Center: Kraft Box of 3-Pack Daoom Kale Chlorophyll -->
+  <g transform="translate(230, 240)">
+    <rect width="240" height="180" rx="8" fill="url(#kraftGrad)" stroke="#B3A289" stroke-width="2" />
+    <text x="15" y="30" font-family="sans-serif" font-size="12" font-weight="900" fill="#2D6A4F">daoom</text>
+    <text x="15" y="50" font-family="sans-serif" font-size="9" fill="#5E5042">용아손 먹거리 영양찬 상품</text>
+    <!-- 3 window cutouts -->
+    <rect x="18" y="75" width="60" height="90" rx="6" fill="#F4EFE6" stroke="#C2B29A" stroke-width="1.5" />
+    <text x="24" y="95" font-family="'Pretendard', sans-serif" font-size="9" font-weight="bold" fill="#2D6A4F">다움 유기농</text>
+    <text x="22" y="108" font-family="'Pretendard', sans-serif" font-size="10" font-weight="bold" fill="#1E3A2B">케일 엽록소</text>
+    <text x="38" y="140" font-size="16">🌿</text>
+
+    <rect x="90" y="75" width="60" height="90" rx="6" fill="#F4EFE6" stroke="#C2B29A" stroke-width="1.5" />
+    <text x="96" y="95" font-family="'Pretendard', sans-serif" font-size="9" font-weight="bold" fill="#2D6A4F">다움 유기농</text>
+    <text x="94" y="108" font-family="'Pretendard', sans-serif" font-size="10" font-weight="bold" fill="#1E3A2B">케일 엽록소</text>
+    <text x="110" y="140" font-size="16">🌿</text>
+
+    <rect x="162" y="75" width="60" height="90" rx="6" fill="#F4EFE6" stroke="#C2B29A" stroke-width="1.5" />
+    <text x="168" y="95" font-family="'Pretendard', sans-serif" font-size="9" font-weight="bold" fill="#2D6A4F">다움 유기농</text>
+    <text x="166" y="108" font-family="'Pretendard', sans-serif" font-size="10" font-weight="bold" fill="#1E3A2B">케일 엽록소</text>
+    <text x="182" y="140" font-size="16">🌿</text>
+  </g>
+
+  <!-- Large Canister Tub next to box -->
+  <g transform="translate(490, 270)">
+    <rect width="90" height="150" rx="10" fill="#FFFFFF" stroke="#D1CDC2" stroke-width="2" />
+    <rect x="0" y="0" width="90" height="28" rx="6" fill="#F5F0E6" stroke="#D1CDC2" stroke-width="1.5" />
+    <text x="12" y="60" font-family="'Pretendard', sans-serif" font-size="12" font-weight="bold" fill="#2D6A4F">다움 유기농</text>
+    <text x="10" y="80" font-family="'Pretendard', sans-serif" font-size="14" font-weight="black" fill="#1E3A2B">케일 엽록소</text>
+    <text x="32" y="115" font-size="24">🌿</text>
+    <text x="20" y="135" font-family="sans-serif" font-size="8" fill="#758A7C">100% 동결건조 분말</text>
+  </g>
+
+  <!-- Bowl with fine vibrant green kale powder & wooden spoon -->
+  <g transform="translate(370, 420)">
+    <!-- Bowl -->
+    <ellipse cx="60" cy="50" rx="55" ry="24" fill="#CBB694" stroke="#9A8361" stroke-width="2" />
+    <!-- Green powder heap -->
+    <ellipse cx="60" cy="46" rx="46" ry="18" fill="#2D6A4F" />
+    <ellipse cx="60" cy="44" rx="35" ry="12" fill="#52B788" />
+    <!-- Wooden spoon -->
+    <path d="M 10 30 Q 30 40 60 48" stroke="#8A663A" stroke-width="8" stroke-linecap="round" fill="none" />
+    <circle cx="10" cy="30" r="10" fill="#B38B59" />
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="490" y="20" width="280" height="44" rx="22" fill="#2D6A4F" />
+  <text x="510" y="47" font-family="'Pretendard', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">
+    제주 유기농 생 케일 엽록소 100%
+  </text>
+</svg>
